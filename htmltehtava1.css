@@ -1,0 +1,23 @@
+body {
+    background-color:gainsboro
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table,th,td { 
+border: 2px solid blueviolet;
+   border-collapse: collapse;
+   padding:10px;
+   text-align: left;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px;
+}
+
+img{
+
+   width:350px;
+   height:100px;
+}
