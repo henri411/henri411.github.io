@@ -1,6 +1,0 @@
-<html>
-<head>Webteknologiat</head>
-    <body>
-    <p>asdasdad</p>
-    </body>
-</html>
