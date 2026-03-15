@@ -1,0 +1,39 @@
+
+.table-container table tr:first-child td {
+    padding-top: 15px;
+}
+
+.table-container {
+    position: relative;
+    width: 500px;
+    margin-bottom: 32px;
+}
+.table-title {
+    position: absolute;
+    top: -8px;
+    left: 10px;
+    transform: none;
+    background: #fff;
+    font-weight: normal;
+    font-size: 15px;
+    z-index: 2;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+   
+}
+
+table caption {
+    display: none;
+}
+td{
+    text-align: left;
+    padding: 7px;
+   
+}
+table{
+    border: 1px solid black;
+    padding:5px;
+}

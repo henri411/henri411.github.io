@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+    <title>html lomake</title>
+    <link rel="stylesheet" href="html2.css">
+</head>
+
+<div class="table-container">
+    <div class="table-title">Contact Information</div>
+    <table width="500">
+        <caption>Contact Information</caption>
+        <tr><td>first name:</td><td><input type="text" name="firstname">Preferred contact method:</td><td></td></tr>
+        <tr><td>last name:</td><td><input type="text" name="lastname"><input type="checkbox" name="method1">email</td></tr>
+        <tr><td>email:</td><td><input type="email" name="email"><input type="checkbox" name="method2">telephone</td></tr>
+        <tr><td>telephone:</td><td><input type="tel" name="telephone"></td></tr>
+    </table>
+</div>
+<div class="table-container">
+    <div class="table-title">Feedback</div>
+    <table width="500">
+        <caption>Feedback</caption>
+        <tr><td>message subject:<input type="text" name="subject"></td><td></td></tr>
+        <tr><td><textarea name="message" cols="50" rows="8"></textarea></td></tr>
+        <tr><td>attach file: <input type="file" name="myfile"></td><td></td></tr>
+        <tr><td><button type="send">send</button></td><td></td></tr>
+    </table>
+</div>
