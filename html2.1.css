@@ -1,0 +1,66 @@
+
+.table-container table tr:first-child td {
+    padding-top: 15px;
+}
+
+.table-container {
+    position: relative;
+    width: 500px;
+    height:220px;
+    margin-bottom: 5px;
+    border:1px solid black;
+    padding:10px;
+    
+}
+.table-title {
+    position: absolute;
+    top: -8px;
+    left: 10px;
+    transform: none;
+    background: #fff;
+    font-weight: normal;
+    font-size: 15px;
+    z-index: 2;
+}
+
+.left{
+   
+    width:250px;
+    float: left;
+    padding:20px;
+}
+.right{
+    
+    width:180px;
+    float:left;
+    
+    
+}
+input{
+    width: 140px;
+    height: 15px;
+    margin-top: 10px;
+    float:left;
+    
+}
+
+label {
+  display: inline-flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+label input {
+  margin-left:5px;
+}
+.email{
+     position: relative;
+    left: 30px;
+}
+.checks{
+    position: relative;
+    right: 50px;
+}
+.nappi{
+    position:relative;
+    bottom:30px;
+}

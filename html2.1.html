@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+    <title>html lomake</title>
+    <link rel="stylesheet" href="html2.1.css">
+</head>
+
+<div class="table-container">
+    <div class="table-title">Contact Information</div>
+    
+        
+
+        <div class="left">
+            <label>first name:<input type="text" name="firstname"></label>
+            <label>last name: <input type="text" name="lastname"></label>
+            <label>email:<input class="email" type="email" name="email"></label>
+            <label>telephone:<input type="tel" name="telephone"></label>
+       </div>
+
+       <div class="right">
+        Preferred contact method:
+        <label class="checks"><input type="checkbox" name="method1">email</label>
+        <label class="checks"><input type="checkbox" name="method2">telephone</label>
+        </div>
+       
+</div>
+<div class="table-container">
+    <div class="table-title">Feedback</div>
+        <label>message subject:<input type="text" name="subject"></label>
+        <textarea name="message" cols="55" rows="8"></textarea>
+        <label>attach file: <input type="file" name="myfile"></label>
+        
+
+</div>
+ <button class="nappi" type="submit">send</button>   
