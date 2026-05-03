@@ -1,0 +1,25 @@
+.input-group{
+    display:flex;
+    flex-direction: left;
+    justify-content: center;
+    align-items: center;
+}
+.container-sm{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+.form-select{
+    max-width: 100px;
+}
+.btn{
+    margin: 10px;
+}
+.vastauslog{
+    width: 900px;
+    min-height: 400px;
+    padding: 20px;
+    margin: 10px;
+    
+}
